@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo-cap.png" type="image/x-icon">
+    <title>Super Mario</title>
+</head>
+
+<body>
+
+    <div class="container-video-mario">
+        <video src="img/background-video.mp4" autoplay muted loop>
+        </video>
+        <div class="mascara-video"></div>
+    </div>
+
+    <div class="container-left">
+        <img src="img/logo-movie.png" alt="logo super mario" class="logo-mario">
+
+        <p>Encanadores Mario & Luigi - Resolvendo seus problemas com estilo!</p>
+        <p>Você já se encontrou em uma situação de emergência com encanamento? Não se preocupe, porque estamos aqui para
+            salvar o dia! Apresentamos para vocês os Encanadores mais famosos do Reino dos Cogumelos - Mario & Luigi!
+        </p>
+
+        <button class="button-contact" onclick="clickButton()">Entre em contato</button>
+    </div>
+
+    <img src="img/mario-and-luigi.png" alt="logo mario e luigi" class="logo-encanadores">
+
+        <form class="fale-conosco" action="https://formsubmit.co/wendhel89@gmail.com" method="POST">
+            <h1>Fale Conosco</h1>
+            <input placeholder="Seu nome" type="text" name="nome">
+            <input placeholder="Seu telefone" type="tel" name="telefone">
+            <textarea placeholder="Digite sua menssagem" name="info"></textarea>
+            <button class="button-form" onclick="hideForm()">Enviar resposta</button>
+        </form>
+
+        <div class="mascara-form"></div>
+</body>
+    <script src="scripts.js"></script>
+</html>
